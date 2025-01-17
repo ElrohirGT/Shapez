@@ -44,7 +44,7 @@
     </language>
   </registry>
   <node concept="rNaRu" id="79cO2pDw8Ia">
-    <property role="TrG5h" value="Drawing1" />
+    <property role="TrG5h" value="Foxy" />
     <node concept="rNaR1" id="5sfZfLI8WW7" role="rN5rl">
       <property role="rNaR8" value="100" />
       <property role="rNaR9" value="100" />
@@ -58,6 +58,22 @@
       <property role="rNaRi" value="500" />
       <property role="rNaRj" value="100" />
       <node concept="rNyv9" id="5sfZfLIbROA" role="rNywJ">
+        <ref role="rNyvl" to="pdy:79cO2pDww1s" resolve="red" />
+      </node>
+    </node>
+    <node concept="rNaR1" id="5sfZfLIfJKd" role="rN5rl">
+      <property role="rNaR8" value="600" />
+      <property role="rNaR9" value="600" />
+      <property role="rNaRc" value="100" />
+      <node concept="rNyv9" id="5sfZfLIfJKg" role="rNywJ">
+        <ref role="rNyvl" to="pdy:79cO2pDww1s" resolve="red" />
+      </node>
+    </node>
+    <node concept="rNaRk" id="5sfZfLIfJKX" role="rN5rl">
+      <property role="rNaRl" value="700" />
+      <property role="rNaRi" value="700" />
+      <property role="rNaRj" value="50" />
+      <node concept="rNyv9" id="5sfZfLIfJL0" role="rNywJ">
         <ref role="rNyvl" to="pdy:79cO2pDww1s" resolve="red" />
       </node>
     </node>

@@ -8,7 +8,7 @@ import java.awt.Graphics;
 import java.awt.Color;
 import java.awt.Dimension;
 
-public class Drawing1 extends JFrame {
+public class Foxy extends JFrame {
   private JPanel panel = new JPanel() {
     @Override
     protected void paintComponent(Graphics graphics) {
@@ -17,6 +17,10 @@ public class Drawing1 extends JFrame {
       graphics.drawOval(100, 100, 50, 50);
       graphics.setColor(Color.red);
       graphics.drawRect(500, 500, 100, 100);
+      graphics.setColor(Color.red);
+      graphics.drawOval(600, 600, 100, 100);
+      graphics.setColor(Color.red);
+      graphics.drawRect(700, 700, 50, 50);
       {
         graphics.setColor(Color.red);
         int[] vx = {500, 550, 450};
@@ -26,7 +30,7 @@ public class Drawing1 extends JFrame {
     }
   };
   public void initialize() {
-    this.setTitle("Drawing1");
+    this.setTitle("Foxy");
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     this.add(panel);
     panel.setPreferredSize(new Dimension(500, 500));
@@ -34,7 +38,7 @@ public class Drawing1 extends JFrame {
     this.setVisible(true);
   }
   public static void main(String[] args) {
-    Drawing1 canvas = new Drawing1();
+    Foxy canvas = new Foxy();
     canvas.initialize();
   }
 }
